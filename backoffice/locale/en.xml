@@ -1,0 +1,45 @@
+<web>
+    <index>
+        <header>
+            <title>Welcome to Cesur</title>
+            <wel>Welcome to your space, what do you want to do?</wel>
+            <welo>This is your file gestion space, what do you want to do?</welo>
+            <wela>This is your friends space, what do you want to do?</wela>
+            <usu>User Management</usu>
+            <arch>Files Management</arch>
+            <ami>Friends</ami>
+            <logout>Log Out</logout>
+            <vol>Back</vol>
+            <modgal>Modify Gallery</modgal>
+            <cdesc>Change Description</cdesc>
+            <cnom>Change Photo Name</cnom>
+            <delf>Delete</delf>
+            <charc>Choose File</charc>
+            <fav>Make Favorite</fav>
+            <favn>Undone Favorite</favn>
+            <res>Archive Restoration</res>
+            <pap>Move to Bin</pap>
+        </header>
+        <log>
+            <user>User:</user>
+            <pwd>Password:</pwd>
+            <reg>Register</reg>
+            <ini>Log in</ini>
+        </log>
+    </index>
+    <preg>
+            <name>Name:</name>
+            <fname>Firstname:</fname>
+            <mail>Email:</mail>
+            <send>Send</send>
+    </preg>
+     <panel>
+        <modDat>Modify Data</modDat>
+        <headerUR>REGISTERED USERS</headerUR>
+        <delB>Delete</delB>
+        <headerAU>ADD USER</headerAU>
+        <admin>Admin</admin>
+        <addB>Add User</addB>
+        
+    </panel>
+</web>

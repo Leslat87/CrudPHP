@@ -1,0 +1,198 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0c0c0c;
+    color: #0a0a0a;
+    padding: 20px 0;
+}
+
+.nav {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.nav__title {
+    margin: 0;
+    font-size: 24px;
+}
+
+.hero {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+#cajaprincipal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.usuario {
+    width: calc(30.33% - 20px);
+    background-color: #fff;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.usuario:nth-child(even) {
+    background-color: #b3d1ee;
+}
+
+.usuario:nth-child(odd) {
+    background-color: #64acf5;
+}
+.usuario .campo {
+    margin-bottom: 10px;
+}
+
+.usuario label {
+    font-weight: bold;
+}
+
+.usuario input[type="text"],
+.usuario input[type="checkbox"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.botonmodificar,
+#botonborrar,
+#botonAñadirUsuario {
+    background-color: #007bff;
+    color: #fff;
+    border: n1px solid #0c0c0c;
+    border-radius: 3px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botonmodificar:hover,
+#botonborrar:hover,
+#botonAñadirUsuario:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #343a40;
+    color: #0c0b0b;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer__copyright {
+    margin: 0;
+}
+
+.footer__copy {
+    margin-top: 20px;
+}
+
+.volver-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #0d0d0e;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.volver-btn:hover {
+    background-color: #2a07f1;
+}
+
+#botonborrar {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botonborrar:hover {
+    background-color: #c82333;
+}
+
+
+#cajaañadir .caja {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 10px;
+}
+
+#cajaañadir .caja:last-child {
+    flex-basis: 100%;
+}
+
+#cajaañadir label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#cajaañadir input[type="text"] {
+    width: 100%;
+}
+
+#botonAñadirUsuario {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botonAñadirUsuario:hover {
+    background-color: #218838;
+}
+
+#cajaañadir {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #f7f591;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#cajaañadir .caja {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 10px;
+}
+
+#cajaañadir .caja:last-child {
+    flex-basis: 100%;
+}
+
+#cajaañadir label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#cajaañadir input[type="text"] {
+    width: 100%;
+}

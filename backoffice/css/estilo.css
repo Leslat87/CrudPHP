@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.nav {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.nav__logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav__button {
+    background-color: #89939e;
+    color: #ffffff;
+    padding: 15px 0; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px; 
+    width: 100%; 
+    margin-bottom: 10px; 
+}
+
+.nav__button:hover {
+    background-color: #0056b3;
+}
+
+.hero {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hero .nav__title {
+    margin: 0;
+    font-size: 28px;
+}
+
+.cajagrande {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.subcaja {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+.campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.campo input[type="text"],
+.campo input[type="checkbox"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.botonmodificar,
+#botonborrar,
+#botonAñadirUsuario {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.botonmodificar:hover,
+#botonborrar:hover,
+#botonAñadirUsuario:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer__title {
+    margin: 0;
+    font-size: 24px;
+}
+
+.footer__copy {
+    margin-top: 20px;
+}
+
+.usuario.par {
+    background-color: #f2f2f2;
+}
+
+
+.usuario.impar {
+    background-color: #fff;
+}
+
+

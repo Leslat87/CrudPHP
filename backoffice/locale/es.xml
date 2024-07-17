@@ -1,0 +1,47 @@
+<web>
+    <index>
+        <header>
+            <title>BIENVENIDOS A CESUR</title>
+            <wel>Bienvenido a su espacio, ¿ qué desea hacer?</wel>
+            <welo>Bienvenido a su espacio de gestion de archivos, ¿ qué desea hacer?</welo>
+            <wela>Este es su espacio de amigos ¿ qué desea hacer?</wela>
+            <usu>Gestión de Usuarios</usu>
+            <arch>Gestión de Archivos</arch>
+            <ami>Amigos</ami>
+            <logout>Cerrar Sesión</logout>
+            <vol>Volver</vol>
+            <modgal>Modificar Galería</modgal>
+            <cdesc>Cambiar Descripción</cdesc>
+            <cnom>Cambiar Nombre Foto</cnom>
+            <delf>Borrar</delf>
+            <charc>Elegir Archivo</charc>
+            <fav>Marcar como Favorito</fav>
+            <favn>Quitar Favorito</favn>
+            <res>Restaurar Archivo</res>
+            <pap>Mandar a Papelera</pap>
+        </header>
+        <log>
+            <user>Usuario:</user>
+            <pwd>Contraseña:</pwd>
+            <reg>Registro</reg>
+            <ini>Inicio</ini>
+        </log>
+    </index>
+    <preg>
+            <name>Nombre:</name>
+            <fname>Apellido:</fname>
+            <mail>Email:</mail>
+            <send>Enviar</send>
+    </preg>
+    <panel>
+        <headerUR>USUARIOS REGISTRADOS</headerUR>
+        <delB>Borrar</delB>
+        <headerAU>AÑADIR USUARIO</headerAU>
+            <admin>Administrador</admin>
+            <modDat>Modificar datos</modDat>
+            
+        <addB>Añadir usuario</addB>
+    </panel>
+</web>
+
+

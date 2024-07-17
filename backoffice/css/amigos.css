@@ -1,0 +1,149 @@
+.container {
+    max-width: 1500px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.hero {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+}
+
+
+.nav {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.nav__logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav__button {
+    background-color: #89939e;
+    color: #ffffff;
+    padding: 15px 0; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px; 
+    width: 100%; 
+    margin-bottom: 10px; 
+}
+
+.nav__button:hover {
+    background-color: #0056b3;
+}
+
+#formEnviarSolicitud {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+#nombreUsuarioAmigo {
+    margin-bottom: 10px; 
+    border: 1px solid #cccccc; 
+    border-radius: 5px; 
+}
+
+#btnEnviarSolicitud {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-bottom: 10px; 
+}
+
+#btnEnviarSolicitud:hover {
+    background-color: #0056b3; 
+}
+
+.solicitudes-pendientes {
+    margin-bottom: 20px; 
+}
+
+#lista-solicitudes {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+#lista-solicitudes li {
+    margin-bottom: 10px; 
+}
+
+#form-aceptar-rechazar {
+    margin-bottom: 20px; 
+}
+
+#btnAceptar,
+#btnRechazar {
+    background-color: #28a745; 
+    color: #fff; 
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+#btnAceptar:hover,
+#btnRechazar:hover {
+    opacity: 0.8; 
+}
+
+.amigo-container {
+    width: 150px; 
+    height: 150px; 
+    margin: 10px; 
+    display: inline-block; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    overflow: hidden; 
+    text-align: center; 
+}
+
+.fondo-container {
+    width: 100%; 
+    height: 50%; 
+    background-size: cover; 
+    background-position: center; 
+    position: relative; 
+}
+
+.iniciales {
+    position: absolute; 
+    bottom: 5px; 
+    left: 5px; 
+    font-size: 20px; 
+    color: rgb(252, 48, 13); 
+}
+
+.footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.footer__title {
+    margin-bottom: 20px; 
+}
+
+.volver-btn {
+    color: white; 
+    background-color: black; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+}
+
+.footer__copyright {
+    margin-top: 20px; 
+}
